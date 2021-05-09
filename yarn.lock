@@ -3927,14 +3927,14 @@ https-browserify@^1.0.0:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-hugo-bin@^0.44.0:
-  version "0.44.3"
-  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.44.3.tgz#355a25830ee5e2e7e3f148d78501cb6390e9d08b"
-  integrity sha512-e/79uk0xszvYaTk62XyfNTqlgA/M6TQdnwBT9uHrf/4gIV/fVSmdjrD/EeqeC1Mq9OcIpLd0C+3+23vdCJk5Cg==
+hugo-bin@^0.71.0:
+  version "0.71.1"
+  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.71.1.tgz#a581f33ed9fc0aaff3baf5d04239d6778ea3e3a3"
+  integrity sha512-H+aBkwtR6oSMcu1kCyzQlan+lcQ45k70JGX4v72h8mb0e4AbvaF58kAy6EDRK/U+/hD6ghTf0a6eLr5sENjaAg==
   dependencies:
     bin-wrapper "^4.1.0"
     pkg-conf "^3.1.0"
-    rimraf "^2.6.3"
+    rimraf "^3.0.2"
     signale "^1.4.0"
 
 iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4:
@@ -7038,6 +7038,13 @@ rimraf@2, rimraf@2.6.3, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2, rimraf@^2.6
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.3.tgz#b2d104fe0d8fb27cf9e0a1cda8262dd3833c6cab"
   integrity sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==
+  dependencies:
+    glob "^7.1.3"
+
+rimraf@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
+  integrity sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
   dependencies:
     glob "^7.1.3"
 
